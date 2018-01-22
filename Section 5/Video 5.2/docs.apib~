@@ -1,0 +1,182 @@
+{
+    "_version": "3.0",
+    "metadata": [],
+    "name": "",
+    "description": "",
+    "element": "category",
+    "content": [
+        {
+            "element": "category",
+            "content": [
+                {
+                    "element": "resource",
+                    "name": "",
+                    "description": "",
+                    "uriTemplate": "/messages/{id}",
+                    "model": {},
+                    "parameters": [],
+                    "actions": [
+                        {
+                            "name": "",
+                            "description": "",
+                            "method": "GET",
+                            "parameters": [],
+                            "attributes": {
+                                "relation": "",
+                                "uriTemplate": ""
+                            },
+                            "content": [],
+                            "examples": [
+                                {
+                                    "name": "",
+                                    "description": "",
+                                    "requests": [],
+                                    "responses": [
+                                        {
+                                            "name": "200",
+                                            "description": "",
+                                            "headers": [
+                                                {
+                                                    "name": "Content-Type",
+                                                    "value": "text/plain"
+                                                }
+                                            ],
+                                            "body": "Hello World!\n",
+                                            "schema": "",
+                                            "content": [
+                                                {
+                                                    "element": "asset",
+                                                    "attributes": {
+                                                        "role": "bodyExample"
+                                                    },
+                                                    "content": "Hello World!\n"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "",
+                            "description": "",
+                            "method": "DELETE",
+                            "parameters": [],
+                            "attributes": {
+                                "relation": "",
+                                "uriTemplate": ""
+                            },
+                            "content": [],
+                            "examples": [
+                                {
+                                    "name": "",
+                                    "description": "",
+                                    "requests": [],
+                                    "responses": [
+                                        {
+                                            "name": "204",
+                                            "description": "",
+                                            "headers": [],
+                                            "body": "",
+                                            "schema": "",
+                                            "content": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "content": []
+                }
+            ]
+        }
+    ],
+    "resourceGroups": [
+        {
+            "name": "",
+            "description": "",
+            "resources": [
+                {
+                    "element": "resource",
+                    "name": "",
+                    "description": "",
+                    "uriTemplate": "/messages/{id}",
+                    "model": {},
+                    "parameters": [],
+                    "actions": [
+                        {
+                            "name": "",
+                            "description": "",
+                            "method": "GET",
+                            "parameters": [],
+                            "attributes": {
+                                "relation": "",
+                                "uriTemplate": ""
+                            },
+                            "content": [],
+                            "examples": [
+                                {
+                                    "name": "",
+                                    "description": "",
+                                    "requests": [],
+                                    "responses": [
+                                        {
+                                            "name": "200",
+                                            "description": "",
+                                            "headers": [
+                                                {
+                                                    "name": "Content-Type",
+                                                    "value": "text/plain"
+                                                }
+                                            ],
+                                            "body": "Hello World!\n",
+                                            "schema": "",
+                                            "content": [
+                                                {
+                                                    "element": "asset",
+                                                    "attributes": {
+                                                        "role": "bodyExample"
+                                                    },
+                                                    "content": "Hello World!\n"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "",
+                            "description": "",
+                            "method": "DELETE",
+                            "parameters": [],
+                            "attributes": {
+                                "relation": "",
+                                "uriTemplate": ""
+                            },
+                            "content": [],
+                            "examples": [
+                                {
+                                    "name": "",
+                                    "description": "",
+                                    "requests": [],
+                                    "responses": [
+                                        {
+                                            "name": "204",
+                                            "description": "",
+                                            "headers": [],
+                                            "body": "",
+                                            "schema": "",
+                                            "content": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "content": []
+                }
+            ]
+        }
+    ]
+}
